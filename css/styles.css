@@ -440,3 +440,25 @@ header {
 	margin: 1em;
 	font-size: 1.5em;
 }
+
+.btn_float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: rgb(186, 44, 63);
+	transition: all 0.5s linear;
+	border-radius: 50px;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	cursor: pointer;
+}
+.float {
+	margin-top: 22px;
+}
+
+.btn_float:hover {
+	background: rgb(242, 136, 136);
+}

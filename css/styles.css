@@ -470,6 +470,7 @@ header {
 }
 
 .btn_float {
+	display: none;
 	position: fixed;
 	width: 60px;
 	height: 60px;
@@ -490,4 +491,5 @@ header {
 .btn_float:hover {
 	background: rgb(242, 136, 136);
 	transform: scale(1.1);
+	transition: transform 1000ms ease-in-out;
 }

@@ -117,6 +117,19 @@ h3 {
 	font-size: var(--fs-h3);
 }
 
+.section__subtitle--resume {
+	background: var(--clr-accent);
+	font-family: var(--ff-secondary);
+	padding: 0.25em 1em;
+	margin-top: 1em;
+	font-size: 1.3rem;
+	justify-content: center;
+}
+.section__subtitle--resume a {
+	text-decoration: none;
+	color: var(--clr-dark);
+}
+
 .section__subtitle--intro,
 .section__subtitle--about {
 	background: var(--clr-accent);
@@ -461,4 +474,5 @@ header {
 
 .btn_float:hover {
 	background: rgb(242, 136, 136);
+	transform: scale(1.1);
 }

@@ -60,10 +60,6 @@ img {
 strong {
 	font-weight: var(--fw-bold);
 }
-.btn:focus {
-	outline: 2px solid var(--clr-accent);
-	outline-offset: 3px;
-}
 
 /* buttons */
 .btn {
@@ -83,6 +79,11 @@ strong {
 
 .btn:hover {
 	transform: scale(1.1);
+}
+
+.btn:focus {
+	outline: 2px solid var(--clr-accent);
+	outline-offset: 3px;
 }
 
 /* typography */
@@ -423,6 +424,11 @@ header {
 .portfolio__item:focus {
 	position: relative;
 	z-index: 2;
+}
+
+.portfolio__item:focus {
+	outline: 2px solid var(--clr-accent);
+	outline-offset: 3px;
 }
 
 .portfolio__img:hover,

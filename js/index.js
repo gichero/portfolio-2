@@ -1,6 +1,8 @@
+/** @format */
+
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelectorAll(".nav__link");
-const floatbutton = document.getElementById("btnFloat");
+const floatButton = document.getElementById("btn_float");
 
 window.onscroll = function () {
 	scrollFunction();
@@ -11,9 +13,9 @@ function scrollFunction() {
 		document.body.scrollTop > 150 ||
 		document.documentElement.scrollTop > 150
 	) {
-		floatbutton.style.display = "block";
+		floatButton.style.display = "block";
 	} else {
-		floatbutton.style.display = "none";
+		floatButton.style.display = "none";
 	}
 }
 
